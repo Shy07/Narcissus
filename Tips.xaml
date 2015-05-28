@@ -1,0 +1,15 @@
+﻿<Window x:Class="Narcissus.Tips"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None" Background="{x:Null}"  AllowsTransparency="True"
+        Title="Tips" Height="128" Width="300"
+        WindowStartupLocation="CenterScreen" Opacity="1"
+        ShowInTaskbar="False" Topmost="True"
+        >
+    <Grid>
+        <Border CornerRadius="2.5" Background="#80808080" Height="Auto" BorderThickness="0">
+            <Label Name="mainLabel" Width="280" Height="30" Content="label" HorizontalContentAlignment="Center" 
+                   FontFamily="./Fonts/#思源黑体 CN Light" FontSize="16" Foreground="AliceBlue"/>
+        </Border>
+    </Grid>
+</Window>
